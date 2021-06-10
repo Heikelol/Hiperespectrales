@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewSttngs general-node="general-settings" layer-node="layer-settings">
+	<general-settings NumView="1" NumLvl="1">
+		<ChldFrm Mode="0" LayoutType="3" Cols="1" Rows="1" PosX="1292" PosY="1280" bCrossHair="1">
+			<SyncData>
+				<SyncGroup id="1" SliceX="277" SliceY="182" SliceZ="0" nShot="0" Map="main"></SyncGroup>
+			</SyncData>
+			<Pane row="0" col="0" view_type="1"></Pane>
+		</ChldFrm>
+		<CDIAClientDcmt0 ShowScalMark="0" ShowHeatMap="0" ShowScalMarkGlbl="0" ShowPanWndGlbl="0" ActlScalMark="1" MapName="main" MapIdx="0" SyncGroup="1" RndrType="0"></CDIAClientDcmt0>
+	</general-settings>
+	<layer-settings NumView="1" NumLvl="1">
+		<CDIAClientDcmt0>
+			<RndrRect ScnX0="0" ScnY0="0" Zoom="2." nSceneSX="549" nSceneSY="390"></RndrRect>
+			<RndrSttng Pixels="0" DisplImage="0" Level="1" Overlay="0" VctrMode="(off)" LayrMode="Image Data" ThemMode="Classification" ElevMode="-auto-" dElevation="0." eOutlineMode="0" bDrawSER="0" bDrawElpt="0" bDrawEV="0" bDrawSklt="0" bDrawText="1" bDrawHeatMap="0" sPolyViewLyr="" dAlpha="0.69999999999999995559107901499373838305" SavedOrient="0">
+				<RndrVctrMix HideAllVectorLayers="0"></RndrVctrMix>
+				<RndrPointCloudMix HideAllPoints="0" cBackgroundColor="0">
+					<Layers></Layers>
+					<Classes></Classes>
+				</RndrPointCloudMix>
+				<TopLeft eFontType="0" crText="16777215" strText="" iFontSize="10"></TopLeft>
+				<TopCenter eFontType="0" crText="16777215" strText="" iFontSize="10"></TopCenter>
+				<LeftCenter eFontType="0" crText="16777215" strText="" iFontSize="10"></LeftCenter>
+				<TopRight eFontType="0" crText="16777215" strText="" iFontSize="10"></TopRight>
+				<BottomLeft eFontType="0" crText="16777215" strText="" iFontSize="10"></BottomLeft>
+				<BottomCenter eFontType="0" crText="16777215" strText="" iFontSize="10"></BottomCenter>
+				<RightCenter eFontType="0" crText="16777215" strText="" iFontSize="10"></RightCenter>
+				<BottomRight eFontType="0" crText="16777215" strText="&lt;&lt;DEFAULT>>" iFontSize="10"></BottomRight>
+			</RndrSttng>
+			<RndrCMix ScalMode="linear" ScalSDev="3." ScalLSat="1.0000000000000000208166817117216851329e-002" ScalGamma="0.5" MixType="5" bUseIgnoreRange="0" dIgnoreRangeMin="0." dIgnoreRangeMax="0." num_chnl="8">
+				<wght0>
+					<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+					<Layer Index="1" Name="NIR" Value="0"></Layer>
+					<Layer Index="2" Name="RED" Value="1"></Layer>
+					<Layer Index="3" Name="REG" Value="0"></Layer>
+					<Layer Index="4" Name="NDVI" Value="0"></Layer>
+					<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+					<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+					<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+				</wght0>
+				<wght1>
+					<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+					<Layer Index="1" Name="NIR" Value="1"></Layer>
+					<Layer Index="2" Name="RED" Value="0"></Layer>
+					<Layer Index="3" Name="REG" Value="0"></Layer>
+					<Layer Index="4" Name="NDVI" Value="0"></Layer>
+					<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+					<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+					<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+				</wght1>
+				<wght2>
+					<Layer Index="0" Name="Layer 1" Value="1"></Layer>
+					<Layer Index="1" Name="NIR" Value="0"></Layer>
+					<Layer Index="2" Name="RED" Value="0"></Layer>
+					<Layer Index="3" Name="REG" Value="0"></Layer>
+					<Layer Index="4" Name="NDVI" Value="0"></Layer>
+					<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+					<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+					<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+				</wght2>
+				<ScalEqua>
+					<EquaItem EquaChnl="0" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="1" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="2" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="3" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="4" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="5" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="6" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+					<EquaItem EquaChnl="7" EquaMode="1" EquaMin="0." EquaMax="255." EquaInit="0"></EquaItem>
+				</ScalEqua>
+				<LastMultiMix MixType="0">
+					<wght0>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght0>
+					<wght1>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght1>
+					<wght2>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght2>
+				</LastMultiMix>
+				<LastGrayMix MixType="0">
+					<wght0>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght0>
+					<wght1>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght1>
+					<wght2>
+						<Layer Index="0" Name="Layer 1" Value="0"></Layer>
+						<Layer Index="1" Name="NIR" Value="0"></Layer>
+						<Layer Index="2" Name="RED" Value="0"></Layer>
+						<Layer Index="3" Name="REG" Value="0"></Layer>
+						<Layer Index="4" Name="NDVI" Value="0"></Layer>
+						<Layer Index="5" Name="Diff NIR" Value="0"></Layer>
+						<Layer Index="6" Name="Diff RED" Value="0"></Layer>
+						<Layer Index="7" Name="Diff RED + Diff NIR" Value="0"></Layer>
+					</wght2>
+				</LastGrayMix>
+				<HiddenFlags>
+					<Channel IsHidden="0"></Channel>
+					<Channel IsHidden="0"></Channel>
+					<Channel IsHidden="0"></Channel>
+					<Channel IsHidden="0"></Channel>
+				</HiddenFlags>
+			</RndrCMix>
+			<RndrBlock Orient3D="0" iSliceX="0" iSliceY="0"></RndrBlock>
+		</CDIAClientDcmt0>
+	</layer-settings>
+</ViewSttngs>
